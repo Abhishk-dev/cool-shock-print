@@ -1,0 +1,19 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "page_caption": "Latest",
+        "page_description": "",
+        "section_description": "Explore insightful stories, tips, and updates on our blog, crafted to inform and inspire.",
+        "banner_color_scheme": "scheme2",
+        "number_of_rows_on_desktop": 2,
+        "section_top_padding": 30,
+        "section_bottom_padding": 30
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

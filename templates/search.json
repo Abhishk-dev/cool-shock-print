@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-search",
+      "settings": {
+        "banner_color_scheme": "scheme2",
+        "page_description": "",
+        "page_caption": "",
+        "product_heading_size": "text-size--small",
+        "section_top_padding": 0,
+        "section_bottom_padding": 30
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

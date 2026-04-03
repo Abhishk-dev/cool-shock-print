@@ -1,0 +1,17 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-products-grid",
+      "settings": {
+        "page_caption": "Explore",
+        "page_description": "Experience the Elegance and Style",
+        "banner_color_scheme": "scheme2",
+        "product_heading_size": "text-size--small",
+        "section_top_padding": 0
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

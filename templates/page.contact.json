@@ -1,0 +1,25 @@
+{
+	"sections": {
+		"main_page": {
+			"type": "main-page",
+			"settings": {
+				"section_caption": "Have a question?",
+				"section_description": "Let’s start a conversation! Fill out our contact Form, and we’ll get back to you as soon as possible.",
+				"parallax_effect": true
+			}
+		},
+		"contact_form": {
+			"type": "contact-form",
+			"settings": {
+				"section_caption": "HAVE A QUESTION?",
+				"section_main_description": "<p>Let’s start a conversation! Fill out our contact Form,<br/>and we’ll get back to you as soon as possible.</p>",
+				"form_heading": "Hello",
+				"max_header_size": 65
+			}
+		}
+	},
+	"order": [
+		"main_page",
+		"contact_form"
+	]
+}
