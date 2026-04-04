@@ -1,0 +1,104 @@
+/* Custom cascade variant UI — theme dropdown list (not native <select> options) */
+
+.product-custom-cascade-ui {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 100%;
+}
+
+.product-custom-cascade_field {
+  margin-bottom: 0;
+}
+
+.product-custom-cascade-ui .product-custom-cascade_title {
+  margin-bottom: 0.4rem;
+}
+
+.product-custom-cascade-ui .product-custom-cascade_title .product-common_variant-title {
+  margin: 0;
+  cursor: pointer;
+}
+
+.product-custom-cascade_dd {
+  position: relative;
+  width: 100%;
+}
+
+/* Clicks land on the opener button, not inner nodes (matches theme dropdown behaviour) */
+.product-custom-cascade-ui .dropdown-variant_opener .product-custom-cascade_dd-value,
+.product-custom-cascade-ui .dropdown-variant_opener .dropdown-componenet_icn-caret {
+  pointer-events: none;
+}
+
+.product-custom-cascade_dd-value {
+  flex: 1;
+  text-align: left;
+  word-break: break-word;
+}
+
+.product-custom-cascade_dd-item:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.product-custom-cascade_dd-item:disabled:hover {
+  color: inherit;
+  background-color: transparent;
+}
+
+/* Slightly more breathing room in the variant-style list */
+.product-custom-cascade-ui .dropdown-variant_items .product-custom-cascade_dd-item {
+  min-height: 4.8rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Custom size dimension fields */
+.product-custom-cascade_custom-wrap {
+  margin-top: 0.4rem;
+}
+
+.product-custom-cascade_custom-wrap.hidden {
+  display: none !important;
+}
+
+.product-custom-cascade_custom-heading {
+  margin: 0 0 0.75rem;
+}
+
+.product-custom-cascade_custom-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.25rem;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.product-custom-cascade_custom-cell {
+  flex: 1 1 8rem;
+  min-width: min(100%, 10rem);
+}
+
+.product-custom-cascade_custom-cell--units {
+  flex: 1 1 9rem;
+}
+
+.product-custom-cascade_custom-cell label {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.product-custom-cascade_custom-input {
+  width: 100%;
+  margin-top: 0;
+}
+
+.product-custom-cascade_required {
+  margin-left: 0.15em;
+  color: var(--section-error-color, #c00);
+}
+
+.product-custom-cascade_custom-error {
+  margin: 0.75rem 0 0;
+}

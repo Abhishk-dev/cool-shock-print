@@ -298,6 +298,7 @@ const onVariantChange = (jsonSelector, optSet, formsSelector, renders, parentSel
   if(this.currentVariant.featured_image) setGallery(this.currentVariant.featured_image, gallerySelectors, renderMedia, templateSelector);
   renderVariant(renders, this.currentVariant.id, parentSelector, productUrl, sectionId, updateUrl, focusSelector);
 }
+window.themeOnVariantChange = onVariantChange;
 
 const setStatuses = (variant, formElems, renderElems, parentElem) => {
   const forms = getJsonParse(formElems);

@@ -1122,6 +1122,41 @@
         "settings": {
           "info": "Use || as a separator to create multiple lists"
         }
+      },
+      "pdp_downloads": {
+        "name": "Downloads / resources",
+        "settings": {
+          "heading": {
+            "label": "Heading"
+          },
+          "download_label": {
+            "label": "Download button label"
+          }
+        }
+      },
+      "additional_information": {
+        "name": "Additional information",
+        "settings": {
+          "label": {
+            "label": "Field label"
+          },
+          "line_item_property_name": {
+            "label": "Line item property name",
+            "info": "Shown on orders and cart. Leave blank to match the label."
+          },
+          "placeholder": {
+            "label": "Placeholder"
+          },
+          "rows": {
+            "label": "Rows"
+          },
+          "maxlength": {
+            "label": "Max characters (0 = no limit)"
+          },
+          "required": {
+            "label": "Required"
+          }
+        }
       }
     }
   },
